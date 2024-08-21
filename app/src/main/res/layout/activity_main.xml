@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/imagen1"
+        android:contentDescription="@string/descripcion_imagen1"
+        android:clickable="true"
+        android:onClick="onImageClick"/>
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/imagen2"
+        android:contentDescription="@string/descripcion_imagen2"
+        android:clickable="true"
+        android:onClick="onImageClick"/>
+
+    <ImageView
+        android:id="@+id/image3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/imagen3"
+        android:contentDescription="@string/descripcion_imagen3"
+        android:clickable="true"
+        android:onClick="onImageClick"/>
+
+    <ImageView
+        android:id="@+id/image4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/imagen4"
+        android:contentDescription="@string/descripcion_imagen4"
+        android:clickable="true"
+        android:onClick="onImageClick"/>
+
+    <Button
+        android:id="@+id/closeAppButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cerrar Aplicación"
+        android:onClick="onCloseAppClick"/>
+</LinearLayout>
